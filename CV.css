@@ -208,11 +208,11 @@ li.nav{
 }
 .O{
     height: 30vh;
-    position: absolute; top: 180%; left: 92.5%;
+    position: absolute; top: 170%; left: 92.5%;
     z-index: 1;
 }
 .S{
-    position: absolute; top: 180%; right: 95%;
+    position: absolute; top: 150%; right: 95%;
 }
 
 /*lignes*/
