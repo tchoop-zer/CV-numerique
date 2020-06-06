@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+	<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+        <title>contact</title>
+        <link rel="stylesheet" href="contact.css">
+        <link href="CV numérique - english.html">
+        <link href="CV numérique.html">
+        <link rel="icon" href="images/logo lf black2.png" type="image/png" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="scroll.js"></script>
+        <script src="animation.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        
+
+	</head>
+    <body>
+        
+        <div>
+            <div class="grey"></div>
+            <div>
+                <ul>
+                    <li class="nav"><a href="CV numérique.html" class="menuX">accueil</a></li>
+                    <li class="nav"><a href="#portfolio" class="menuX">portfolio</a></li>
+                    <li class="nav"><a href="#six" class="menuX">contact</a></li>
+                    <li class="nav"><a href="#a propos" class="menuX">A propos</a></li>
+                    <a href="CV numérique - english.html" class="menuX language">EN</a>
+                </ul>
+                <!--<img  class="b2o" src="booba-1-2.png">-->
+            </div>
+            <img src="contact.png" class="contact">
+            <p class="side">Contact</p>
+            <p class="side2">Contact</p>
+            <div class="line " id="line"></div>
+            <div class="line2 " id="line"></div>
+            <div class="line3 droite" id="line"></div>
+            <img class="office" src="images/pop-up-ordi.png" alt="bureau">
+            
+        
+
+            <table>
+                <tr>
+                    <td class="titre">Contactez moi</td>
+                </tr>
+                <tr>
+                    <td class="form" >Ce formulaire me permettra<br>
+                        de recevoir toute questions,<br>
+                        ou requette de votre part.<br>
+                        Je vous encourage à le remplir.<br>
+                        N’ésitez pas à me faire des<br>
+                        retours sur le site en<br>
+                        lui-même, je prendrais en<br>
+                        compte vos remarques<br>
+                        Merci d’avance.</td>
+                </tr>
+                <tr>
+                    <td class="pres">Ce site Web à été réalisé<br>
+                        par mes soins dans le<br>
+                        cadre d’un projet d’étude<br>
+                        de première année<br>
+                        2012-2020.</td>
+                </tr>
+
+            </table>
+            <div class="propos" id="a propos">
+                <ul class="C1">  
+                    <li class="li1"><img class="mail" src="logo/mail.png" alt="Mon adresse mail"></li>
+                    <li class="li1"><img class="telephone" src="logo/telephon.png" alt="Mon numéro de telephone"></li>
+                </ul> 
+                <ul class="C2">  
+                    <li class="li2"><p id="propos">lucastou@me.com</p></li>
+                    <li class="li2"><p id="propos">+33 7 86 37 15 39</p></li>
+                </ul>
+                <ul class="C3">
+                    <li class="li3"><img class="house" src="logo/maison.png" alt="Mon adresse"></a></li>
+                    <li class="li3"><a href="https://www.linkedin.com/in/lucas-fassel-847a53194/"></a><img class="linkedin" src="logo/linkedin.png" alt="Mon linkedin"></a></li>
+                </ul>
+                <ul class="C4">
+                    <li class="li4"><p id="propos">44 Avenue du Mesnil,<br>Saint-Maur-des-Fossés,<br>94210(94)</p></li>
+                    <li class="li4"><p id="propos">Lucas FASSEL</p></li>
+                </ul>
+                <div>
+                    <a href="https://www.instagram.com/lucas_f2sl/?igshid=ozizw04mu7fc&fbclid=IwAR1YFdKjs4nPBg6ZellVzLkc7EdLvUmMaRaNCLD_EtUMj_R0rgnki2CE748"><img class="instagram" src="logo/instagram-Logo.png" alt="Mon instagram"></a>
+                    <a href="https://www.facebook.com/lucas.fassel.7"><img class="facebook" src="logo/facebook.png" alt="Mon facebook"></a>
+                </div>
+                    <p class="center1" id="propos">Copyright 2020 Lucas Fassel Inc. All rights reserved.</p>
+            </div>
+
+            <!-- formulaire -->
+            <div class="wrapper">
+                <div class="contact-form">
+                    <form action="http://192.168.0.31/lucas/reponse.php" method="POST" target="container">
+                    <input type="text" class="input obligatoire" placeholder="Nom" name="contact_nom" required>
+
+                    <input class="input obligatoire" name="contact_prenom" placeholder="Prénom" type="text" required>
+
+                    <input class="input obligatoire" name="email" placeholder="Email" type="email" required>
+            
+                    <textarea name="message" cols="50" rows="5" placeholder="La parole est à vous" class="msg"></textarea>
+                    <!-- je met le bouton envoie-->
+                    <input type="submit" class="center bouton" value="Envoyer">
+            
+                  </form>
+                </div>
+              </div>
+
+        </div>
+    </body>
+    </html>

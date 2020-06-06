@@ -1,0 +1,415 @@
+body{
+    background-color: black;
+    overflow-X:none;
+}
+/*menu*/
+.language{
+    position: relative; top: 20px; left: 96.63%;
+}
+.menuX{
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.menuy{
+    text-decoration: none;
+    position: fixed; right: 6%;
+}
+
+form{
+    background-color: rgba(179, 179, 179, 0.26);
+}
+
+.MenuDot{
+    top: 100%;
+}
+
+li.navx{
+    padding: 1%;
+    z-index: 1;
+}
+
+menuX:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+.vid{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    transition: all 1s ease-out;
+}
+
+a:hover{
+    transform: scale(1.5, 1.5);
+}
+
+li.nav{
+    display: inline-block;
+    padding-left: 14.64%;
+    padding-top: 20px;
+    position: relative; left: 23.79%;
+    font-size: 1.75vw;
+    z-index: 13;
+}
+
+
+
+.contact{
+    height : 100vh;
+    width: 18%;
+    position: absolute; top: 0%; left: 24%;
+    margin: 0px;
+}
+table{
+    color: #AEAEAE;
+    position: absolute; top: 23%; left: 6%;
+    font-family: 'Rajdhani', sans-serif;
+}
+td{
+    padding: 4%;
+}
+
+
+
+/*formulaire*/
+/*------------------------------------------------------*/
+
+.wrapper {
+    position: absolute;
+    top: 18%; left: 30%;
+    width: 65%;
+    border: 0px;
+}
+.contact-form {
+
+    max-width: 50%;
+    margin: 0 auto;
+    border: 0px;
+    /*background: rgba(29, 29, 29, 0);*/
+    /*padding: 30px;*/
+    display: flex;
+}
+
+
+.input-field {
+    margin-right: 4%;
+}
+
+.input-field,
+.msg {
+    width: 48%;
+}
+
+.select {
+    width: 48%;
+}
+
+input:focus {
+/*    transform: scale(1.1);*/
+
+}
+
+.input {
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Rajdhani', sans-serif;
+    border-bottom: 2px solid #fff;
+}
+
+.msg {
+
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    border-bottom: 2px solid #fff;
+}
+
+.input-field .input .msg textarea {
+    margin: 10px 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+option {
+    color: #c5ecfd;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.msg textarea {
+    height: 212px;
+    margin: 10px 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #c5ecfd;
+}
+
+.bouton{
+    margin-left: 42%;
+}
+/*finnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+
+.titre{
+    font-size: 1.75vw;
+    border-bottom: white solid 1px;
+}
+/*.form{
+    font-size: 1vw;
+    border-bottom: white solid 1px;
+}*/
+.pres{
+    font-size: 0.75vw;
+    color: lightgray;
+}
+
+.side{
+    transform: rotate(-90deg);
+    position: absolute; bottom: 10%;
+    z-index: 13;
+}
+.side2{
+    transform: rotate(-90deg);
+    position: absolute; bottom: 50%; right: 1.75%;
+    z-index: 13;
+}
+p{
+    margin: 0px;
+    float: left;
+    font-size: 2.3vw;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+div#line{
+    background-color: white;
+    height: 0.3%;
+
+}
+
+.line{
+    width: 70%;
+    position: absolute; top: 2%; right: 60.75%;
+    transform: rotate(90deg);
+}
+.line2{
+    width: 35%;
+    position: absolute; top: 0%; left: 77%;
+    transform: rotate(90deg);
+}
+.line3{
+    width: 8%;
+    position: absolute; top: 7.25%; left: 92%;
+}
+
+.first{
+    z-index: 13;
+}
+
+.office{
+    width: 25%;
+    position: absolute; bottom: 0%; right: 0%;
+}
+
+/*renseigenements*/
+.propos{
+    background-color: grey;
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: absolute; top: 100vh;
+}
+
+/*legend{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+input{
+    background-color: rgba(256, 256, 256, 0);
+}*/
+textarea{
+    background-color: rgba(174, 174, 174, 0);
+}
+.envoyer{
+    color: gray; 
+}
+.name{
+    font-size: 1.75vw;
+}
+/*.que{
+    height: 30vh;
+    width: 30vw;
+    z-index: 12;
+    position: absolute; top: 30%; right: 27%;
+}*/
+p#propos{
+    margin: 0px;
+    float: left;
+    font-size: 1.15vw;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/*.b2o{
+    position: absolute; top: 30%; right: 0%;
+    float: right;
+    z-index: 12;
+    height: 70%;
+}*/
+.grey{
+    height: 100vh;
+    width: 57vw;
+    float: left;
+    background-color: #1A1A1A;
+    position: absolute; top: 0%; right: 0%;
+}
+.propos{
+    background-color: #1A1A1A;
+    height: 25vh;
+    width: 98.8vw;
+    margin: 0px;
+    position: absolute; left: 0%;
+}
+li{
+    list-style: none;
+}
+.mail{
+    width: 5%;
+
+}
+.telephone{
+    width: 5%;
+
+}
+.house{
+    width: 5%; 
+    padding-left: 5px;
+}
+
+.facebook{
+    width: 2%; 
+    position: absolute; left: 47%; top: 32%;
+}
+.instagram{
+    width: 3%; 
+    position: absolute; left: 50%; top: 30%;
+}
+.linkedin{
+    width: 7%;
+}
+
+.C1{
+    position: absolute;
+    left: 10%;
+    margin-top: 2%;
+}
+.C2{
+    position: absolute;
+    left: 15%;
+    margin-top: 2%;
+}
+.C3{
+    position: absolute;
+    left: 70%;
+    margin-top: 2%;
+}
+.C4{
+    position: absolute;
+    right: 10%;
+    margin-top: 2%;
+}
+
+
+
+.li1{
+    padding-bottom: 8%;
+}
+.li2{
+    padding-bottom: 50%;
+}
+
+.li3{
+    padding-bottom: 12%;
+}
+.li4{
+    padding-bottom: 50%;
+}
+.center1{
+    position: absolute; top: 60%; left: 37%;
+}
+
+
+
+
+/*animations*/
+
+ @-webkit-keyframes scale-up-hor-right {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+    }
+  }
+  @keyframes scale-up-hor-right {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+    }
+  }
+
+  .droite {
+	-webkit-animation: scale-up-hor-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+.bas {
+	-webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
