@@ -72,8 +72,8 @@
                 <img class="pen" src="pencils-762555_1920.jpg">
                 <img class="text" src="images/logo texte.png"> 
                 <h2 class="moi">MOI</h2>
-                <div class="relax" data-rellax-speed="2"><img src="images/demiO.png" class="O"></div>
-                <div class="relax" data-rellax-speed="2"><h6 class="S">S</h6></div>
+                <div class="rellax" data-rellax-speed="2"><img src="images/demiO.png" class="O"></div>
+                <div class="rellax" data-rellax-speed="7"><h6 class="S">S</h6></div>
                 <p class="rotate exp">EXPERIENCES</p>
                 
 
@@ -216,11 +216,23 @@
                 </div>
         </div>
 
+
+
+    </body>
+    </html>
 <script src="rellax.min.js"></script>
 <script>
   // Accepts any class name
   var rellax = new Rellax('.rellax');
+  // Also can pass in optional settings block
+  /*
+  var rellax = new Rellax('.rellax', {
+    speed: -2,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+  */
 </script>
-
-    </body>
-    </html>
