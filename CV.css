@@ -28,7 +28,7 @@ body{
 
 .MenuDot{
     position: fixed; right: 6%; top: 30%;
-
+    z-index: 10;
 }
 
 li.navx{
@@ -95,7 +95,7 @@ li.nav{
     padding-top: 20px;
     position: relative; left: 23.79%;
     font-size: 1.75vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 
@@ -105,6 +105,7 @@ li.nav{
     position: absolute; top: 25.625%; left: 13.83%;
     font-family: 'Rajdhani', sans-serif;
     font-size: 3.5vw;
+    z-index: 2;
 }
 
 .fa{
@@ -112,6 +113,7 @@ li.nav{
     position: absolute; top: 42.55%; left: 27.32%;
     font-family: 'Rajdhani', sans-serif;
     font-size: 3.5vw;
+    z-index: 2;
 }
 
 .c{
@@ -119,6 +121,7 @@ li.nav{
     font-size: 6vw;
     color: #D2635F;
     position: absolute; top: 46.69%; left: 15.57%;
+    z-index: 2;
 }
 
 .v{
@@ -126,6 +129,7 @@ li.nav{
     font-size: 6vw;
     color: #D2635F;
     position: absolute; top: 63%; left: 22.79%;
+    z-index: 2;
 }
 
 .rotate{
@@ -137,6 +141,7 @@ li.nav{
 }
 .me{
     position: absolute; bottom: 8.83%; left: 84%;
+    z-index: 2;
 }
 .linkMe{
     position: absolute; bottom: 8%; left: 84%;
@@ -147,6 +152,7 @@ li.nav{
 .imgcv{
     position: absolute; top: 5%; left: 22%;
     height: 100vh;
+    z-index: 1;
 
 }
 /*ligne de déco*/
@@ -156,6 +162,7 @@ li.nav{
     width: 25%;
     transform: rotate(90deg);
     position: absolute; top: 33%; left: 13%;
+    z-index: 2;
 }
 
 .line2{
@@ -164,6 +171,7 @@ li.nav{
     width: 20%;
     position: absolute; top: 82%; right: 68%;
     transform: rotate(-30deg);
+    z-index: 2;
 }
 
 
@@ -174,6 +182,7 @@ li.nav{
     width: 25%;
     transform: rotate(90deg);
     position: absolute; top: 125%; left: 73.75%;
+    z-index: 2;
 }
 
 
@@ -199,11 +208,11 @@ li.nav{
 }
 .O{
     height: 30vh;
-    position: absolute; top: 180%; left: 92.5%;
+    position: absolute; top: 170%; left: 92.5%;
     z-index: 1;
 }
 .S{
-    position: absolute; top: 180%; right: 95%;
+    position: absolute; top: 150%; right: 95%;
 }
 
 /*lignes*/
