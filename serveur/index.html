@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TP formulaire</title>
+    <link rel="stylesheet" href="styles1a.css">
+</head>
+
+<body>
+
+    <form action="reponse.php" method="POST"><!--attributs action et method à remplir pour que le formulaire fonctionne-->
+    
+        <fieldset>
+            <legend>Qui êtes-vous ?</legend>
+            <p>
+                <label class="label" for="contact_nom">Noms<span class="obligatoire">*</span></label>
+                <input type="text" name="contact_nom" required>
+
+            </p>
+
+            <p>
+                <label class="label" for="contact_prenom">Prénom<span class="obligatoire">*</span></label>
+                <input name="contact_prenom" type="text" required>
+            </p>
+            <p>
+                <label class="label" for="email">Email<span class="obligatoire">*</span></label>
+                <input name="email" type="email" required>
+            </p>
+
+            <textarea name="comment" rows="5" cols="60" placeholder="La parole est à vous"></textarea>
+        </fieldset>
+
+        <p class="center">
+            <input type="submit" value="Envoyer">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
